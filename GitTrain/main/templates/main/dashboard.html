@@ -1,0 +1,41 @@
+{% extends "main/base.html" %}
+
+{% block title %}
+    {{title}}
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Доска почета</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Добро пожаловать в тренажер по Git. Если интересно, можешь отметиться, что побывал на этой странице.</p>
+                <p>Давайте наполним этот тренажер позитивом.</p>
+                <p>Просто скопируй <span style='color: green;'>div card</span> и впиши свои впечатления или пожелания</p>
+                <p>Буду первым :)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Добравшиеся</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class='card'>
+                    <div class='card-header'>
+                        <h4 class='card-title'>Востоковед</h4>
+                    </div>
+                    <div class='card-body'>
+                        <p>Я первый!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
