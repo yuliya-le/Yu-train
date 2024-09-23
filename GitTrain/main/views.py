@@ -5,4 +5,9 @@ def index(request):
     return render(request, 'main/index.html')
 
 def about(request):
-    return render(request, 'main/about.html')
+    context = {'title': 'О тренажере'}
+    return render(request, 'main/about.html', context)
+
+def dashboard(request):
+    context = {'title': 'Доска почета'}
+    return render(request, 'main/dashboard.html', context)
