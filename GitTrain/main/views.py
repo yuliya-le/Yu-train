@@ -11,3 +11,7 @@ def about(request):
 def dashboard(request):
     context = {'title': 'Доска почета'}
     return render(request, 'main/dashboard.html', context)
+
+def new(request):
+    context = {'title': 'Новый файл'}
+    return render(request, 'main/new.html', context)
