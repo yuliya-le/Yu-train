@@ -15,3 +15,4 @@ def dashboard(request):
 def new(request):
     context = {'title': 'Новый файл'}
     return render(request, 'main/new.html', context)
+
